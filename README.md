@@ -1,8 +1,7 @@
 BOMBERMAN
 =========
 
-A command line colorized  BOMBERMAN game based on non Pygame and ncurses implemenation. The game is implemented in python3 and  OOP Principles like Inheritance, Polymorphism, 
-Encapsulation and Modularity are followed.
+A command line colourized  BOMBERMAN game based on non-Pygame and ncurses implemenation. The game is implemented in python3 and  OOP Principles like Inheritance, Polymorphism, Encapsulation and Modularity are followed.
 
 ## Running the game 
 Before running the code, run the following command in the terminal.
@@ -16,7 +15,7 @@ The game contains several classes each of which represents an object in the game
 * board - Class to implement the main playing area i.e, the board for the game along with the Walls and also has method to print it.
 * game - Class to implement main processing for the game.
 * brick - Class to implement bricks which can be destroyed by the explosion of bombs.
-* person - Parent class for the non various objects present in the game.
+* person - Parent class for various objects present in the game.
 * bomberman - Class to implement the bomberman which will be operated by the user.
 * enemy - Class to implement the enemies of the game which will move in pseudo random motion. Enemies with different speed according to level.
 * bomb - Class to implement the bombs that will be planted by the bomberman.
@@ -73,7 +72,6 @@ The game contains several classes each of which represents an object in the game
 	* %%%% - Bricks
 	  %%%%
 	* [00] - Enemy
-	
 	  [00] 
 	* BOMB - Bomb
 	  BOMB 
